@@ -1,4 +1,4 @@
-# 🚀 react-dynamic-form: Dynamic Forms Made Easy
+# 🚀 react-dynamic-form: Dynamic Forms Made Easy by [Mercury](https://mercuryjs.dev/) Community
 
 react-dynamic-form is a powerful, lightweight form library for React applications that lets you create stunning, functional forms with minimal effort. Say goodbye to complex setups and hello to intuitive, responsive forms that just work.
 

@@ -1,6 +1,6 @@
 {
   "name": "express-react-form",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "This is a dynamic form package",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
