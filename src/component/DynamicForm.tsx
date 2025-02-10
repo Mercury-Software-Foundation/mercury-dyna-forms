@@ -90,7 +90,6 @@ const DynamicForm: React.FC<DynamicFormProps> = ({
   const validationSchema = Yup.object().shape(
     formData.reduce((schema, field) => {
       let fieldValidation: any = Yup.string();
-
       switch (field.type) {
         case "email":
           fieldValidation = fieldValidation.email("Invalid email format");
@@ -115,10 +114,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({
           fieldValidation = Yup.date();
           break;
         case "checkbox":
-          fieldValidation = Yup.boolean().oneOf(
-            [true],
-            `${field.label} is required`
-          );
+          fieldValidation = Yup.boolean()
           break;
         case "radio":
           fieldValidation = Yup.string().oneOf(
@@ -141,7 +137,7 @@ const DynamicForm: React.FC<DynamicFormProps> = ({
       }
 
       if (field.regexPattern) {
-        fieldValidation = fieldValidation.matches(
+        fieldValidation = fieldValidation?.matches && fieldValidation.matches(
           new RegExp(field.regexPattern),
           `${field.label} is invalid`
         );
