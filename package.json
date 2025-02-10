@@ -1,6 +1,6 @@
 {
   "name": "@mercury-js/dynaforms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is a dynamic form package",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

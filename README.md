@@ -1,6 +1,6 @@
 # 🚀 react-dynamic-form: Dynamic Forms Made Easy by [Mercury](https://mercuryjs.dev/) Community
 
-react-dynamic-form is a powerful, lightweight form library for React applications that lets you create stunning, functional forms with minimal effort. Say goodbye to complex setups and hello to intuitive, responsive forms that just work.
+react-dynamic-form is a powerful,lightweight form library for React applications that lets you create stunning, functional forms with minimal effort. Say goodbye to complex setups and hello to intuitive, responsive forms that just work.
 
 ## ✨ Features
 
@@ -29,25 +29,25 @@ react-dynamic-form is a powerful, lightweight form library for React application
 Install react-dynamic-form using npm:
 
 ```bash
-npm install express-react-form
+npm install @mercury-js/dynaforms
 ```
 
 Or using yarn:
 
 ```bash
-yarn add express-react-form
+yarn add @mercury-js/dynaforms
 ```
 
 or using pnpm
 
 ```bash
-pnpm add express-react-form
+pnpm add @mercury-js/dynaforms
 ```
 
 or using bun
 
 ```bash
-bun add express-react-form
+bun add @mercury-js/dynaforms
 ```
 
 
@@ -56,8 +56,8 @@ bun add express-react-form
 In your React component, import the necessary modules:
 
 ```typescript
-import DynamicForm, { FormField } from "express-react-form";
-import "express-react-form/dist/styles.css";
+import DynamicForm, { FormField } from "@mercury-js/dynaforms";
+import "@mercury-js/dynaforms/dist/styles.css";
 ```
 
 ## Basic Usage
