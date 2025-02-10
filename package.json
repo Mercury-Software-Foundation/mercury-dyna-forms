@@ -1,6 +1,6 @@
 {
-  "name": "express-react-form",
-  "version": "0.1.7",
+  "name": "@mercury-js/dynaforms",
+  "version": "0.0.1",
   "description": "This is a dynamic form package",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
